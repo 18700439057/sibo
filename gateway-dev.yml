@@ -18,5 +18,6 @@ auth:
   server:
     getToken: http://localhost:3003/auth/token
     refershToken: http://localhost:3003/auth/token
+    saveLog: http://localhost:3005/loginLog
     whiteList:
       - /config/master/gateway-dev.json
