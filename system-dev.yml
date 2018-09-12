@@ -8,7 +8,7 @@ defaultData:
     user_center: 
       name: 用户中心
       config-version: 1
-      SRN: userCenter,
+      SRN: userCenter
       icon: iconfont icon-yonghuzhongxin
       modules:
         - {name: 用户管理,access-uri: /user/list,SRN: userManager}
