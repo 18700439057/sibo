@@ -91,7 +91,7 @@ eureka:
         serviceUrl:
            defaultZone: http://1.85.2.98:8082/center/
                     # docker 部署开启,记得将IP修改为部署所在服务器的外网IP
-   #         defaultZone: http://${EUREKA_HOST:127.0.0.1}:${EUREKA_PORT:8761}/center/
+   #         defaultZone: http://${EUREKA_HOST:1.85.2.98}:${EUREKA_PORT:8082}/center/
 
 jwt:
   token-header: Authorization
